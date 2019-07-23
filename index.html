@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Quran Images API</title>
+  </head>
+  <style>
+    .outer {
+      display: table;
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+    }
+
+    .middle {
+      display: table-cell;
+      vertical-align: middle;
+    }
+
+    .inner {
+      margin-left: auto;
+      margin-right: auto;
+      width: 500px;
+      /*whatever width you want*/
+    }
+  </style>
+  <body>
+    <div class="outer">
+      <div class="middle">
+        <div class="inner">
+          <h2>This API is built to fetch Holy Quran pages.</h2>
+          <br />
+          <strong>There are three main endpoints:</strong>
+          <br />
+          <ul>
+            <li>
+              <strong>/page/:pageNumber</strong> <br />
+              <span>This endpoint returns AbsolutePath of image</span> &nbsp; <a href="https://quran-images-api.herokuapp.com/page/1">Try out</a>
+            </li>
+            <li>
+              <strong>/show/page/:pageNumber</strong> <br />
+              <span>This endpoint returns fully image in png format </span> &nbsp; <a href="https://quran-images-api.herokuapp.com/show/page/1">Try out</a>
+            </li>
+            <li>
+              <strong>/download/page/:pageNumber</strong> <br />
+              <span
+                >This endpoint allows to download image of desired page
+              </span> &nbsp;<a href="https://quran-images-api.herokuapp.com/download/page/1">Try out</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
