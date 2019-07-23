@@ -1,0 +1,20 @@
+{
+  "name": "quran-images-api",
+  "version": "1.0.0",
+  "description": "This API is built to fetch Holy Quran pages as jpeg format.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha"
+  },
+  "keywords": [
+    "holy-quran",
+    "api",
+    "images"
+  ],
+  "author": "Betim Shala",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
