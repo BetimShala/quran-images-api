@@ -1,6 +1,6 @@
 # quran-images-api
 ```html
-This API is built to fetch Holy Quran pages as png format
+This API is built to fetch Holy Quran pages.
 
 There are three main endpoints:
 
