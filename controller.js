@@ -4,7 +4,6 @@ path = require("path")
 class Controller {
   static async get(req, res, next) {
     try {
-      const relativePath = `./quran-images/${req.params.page}.png`;
       res.end(path.join(__dirname + `/quran-images/${req.params.page}.png`));
     } catch (ex) {
       return next(ex);
